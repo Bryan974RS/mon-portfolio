@@ -1,4 +1,7 @@
 function changerCouleur() {
-  document.body.style.backgroundColor =
-    document.body.style.backgroundColor === "black" ? "#111" : "black";
+  if (document.body.style.backgroundColor === "black") {
+    document.body.style.backgroundColor = "#111";
+  } else {
+    document.body.style.backgroundColor = "black";
+  }
 }
