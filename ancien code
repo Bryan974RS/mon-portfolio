@@ -8,44 +8,68 @@
   <body>
     <div class="container">
       <header>
-        <h1>Salut, moi c'est Bryan 👋</h1>
-        <img
-          src="photo.jpg"
-          alt="Photo Bryan"
-          width="150"
-          style="border-radius: 50%"
-        />
-        <p>Étudiant en développement web</p>
+        <nav>
+          <h2>Bryan</h2>
+          <ul>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </header>
+      <main class="container">
+        <section id="hero">
+          <h1>Salut, moi c'est Bryan 👋</h1>
+          <img src="photo.jpg" alt="Photo Bryan" />
+          <p>Étudiant en développement web</p>
+        </section>
 
-      <section>
-        <h2>À propos</h2>
-        <p>
-          Je suis actuellement étudiant en développement web et je prépare un
-          Bachelor 3 à My Ynov à partir de septembre.
-          <br /><br />
-          Passionné par le numérique, je développe mes compétences en HTML, CSS
-          et JavaScript tout en découvrant les bonnes pratiques du
-          développement.
-          <br /><br />
-          Je suis à la recherche d’une alternance afin de mettre en pratique mes
-          connaissances et évoluer dans un environnement professionnel.
-        </p>
-      </section>
+        <section id="apropos">
+          <h2>À propos</h2>
+          <p>
+            Je suis actuellement étudiant en développement web et je prépare un
+            Bachelor 3 à My Ynov à partir de septembre.
+            <br /><br />
+            Passionné par le numérique, je développe mes compétences en HTML,
+            CSS et JavaScript tout en découvrant les bonnes pratiques du
+            développement.
+            <br /><br />
+            Je suis à la recherche d’une alternance afin de mettre en pratique
+            mes connaissances et évoluer dans un environnement professionnel.
+          </p>
+        </section>
 
-      <section>
-        <h2>Mes projets</h2>
-        <ul>
-          <li>Portfolio personnel (ce site)</li>
-          <li>Projet JavaScript à venir</li>
-        </ul>
-        <h2>Contact</h2>
-        <ul>
-          <li>Numéro : 0692477095</li>
-          <li>Mail : persobryans2@gmail.com</li>
-          <li>Ville : Montpellier</li>
-        </ul>
-      </section>
+        <section id="competences">
+          <h2>Compétences</h2>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+            <span>GitHub</span>
+          </div>
+        </section>
+
+        <section id="projets">
+          <h2>Mes projets</h2>
+          <div class="card">
+            <h3>Portfolio personnel</h3>
+            <p>
+              Premier site web personnel développé en HTML, CSS et JavaScript.
+            </p>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>Email : tonmail@example.com</p>
+          <p>Ville : Montpellier</p>
+          <a href="https://github.com/tonusername" target="_blank"
+            >Mon GitHub</a
+          >
+        </section>
+      </main>
 
       <button onclick="changerCouleur()">Changer couleur</button>
 
