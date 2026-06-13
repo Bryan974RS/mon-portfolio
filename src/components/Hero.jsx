@@ -3,7 +3,7 @@ function Hero() {
     <section id="hero">
       <h1>Salut, moi c'est Bryan 👋</h1>
       <img
-        src={process.env.PUBLIC_URL + "/photo.jpg"}
+        src={process.env.PUBLIC_URL + "/photov1.jpg"}
         alt="Bryan Sadeyen"
         className="hero-photo"
       />
