@@ -1,24 +1,16 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import APropos from './components/APropos';
-import Formation from './components/Formation';
-import Competences from './components/Competences';
-import Projets from './components/Projets';
-import Contact from './components/Contact';
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Accueil from "./pages/Accueil/Accueil";
+import Projets from "./pages/Projets/Projets";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <main>
-        <Hero />
-        <APropos />
-        <Formation />
-        <Competences />
-        <Projets />
-        <Contact />
-      </main>
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/projets" element={<Projets />} />
+      </Routes>
     </div>
   );
 }
