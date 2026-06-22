@@ -411,3 +411,84 @@ section h2 {
   font-weight: 600;
   font-size: 0.9rem;
 }
+/* RESPONSIVE MOBILE */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 16px 24px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 24px 60px;
+    gap: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-image img {
+    width: 260px;
+    height: 300px;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 24px;
+  }
+
+  .about-image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  section {
+    padding: 60px 24px;
+  }
+
+  section h2 {
+    font-size: 1.7rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-banner {
+    padding: 50px 24px;
+  }
+
+  .contact-banner h2 {
+    font-size: 1.5rem;
+  }
+
+  .filtres {
+    gap: 8px;
+  }
+
+  .filtre-btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
+  }
+
+  .projets-page .projets-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 260px;
+  }
+}
