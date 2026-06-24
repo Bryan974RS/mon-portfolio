@@ -556,3 +556,12 @@ section h2 {
     border-bottom: 1px solid #1a1a1a;
   }
 }
+@media (max-width: 768px) {
+  .about-image {
+    display: none;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+}
