@@ -1,5 +1,30 @@
+import { Link } from "react-router-dom";
+
 function About() {
-  const competences = ["HTML", "CSS", "JavaScript", "React", "Node.js"];
+  const competences = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MySQL",
+    "SQL",
+    "Windows",
+    "Linux",
+    "Active Directory",
+    "VLAN",
+    "DHCP",
+    "TCP/IP",
+    "Git",
+    "GitHub",
+    "VS Code",
+    "XAMPP",
+    "VirtualBox",
+    "VMware",
+    "VoIP",
+    "Asterisk",
+    "FreePBX",
+  ];
 
   return (
     <section id="about" className="about">
@@ -20,9 +45,13 @@ function About() {
         </p>
         <div className="competences-badges">
           {competences.map((comp) => (
-            <span key={comp} className="badge">
+            <Link
+              to={`/projets?filtre=${comp}`}
+              key={comp}
+              className="badge badge-link"
+            >
               {comp}
-            </span>
+            </Link>
           ))}
         </div>
       </div>
