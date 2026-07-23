@@ -10,9 +10,25 @@ function Projets() {
     {
       titre: "PROG — App fitness",
       description:
-        "Application de suivi d'entraînement. Séances, progression, objectifs et street workout.",
-      competences: ["React", "JavaScript"],
+        "Application mobile de suivi d'entraînement développée en React Native & Expo. Séances, progression, objectifs, street workout et synchronisation cloud via Supabase.",
+      competences: ["React Native", "JavaScript"],
       lien: "https://github.com/Bryan974RS/prog-project",
+      statut: "soon",
+    },
+    {
+      titre: "CalisRun Fitness — Site de coaching",
+      description:
+        "Site web de coaching en ligne pour une association de street workout. Inscription, choix de coach, système de paiement et messagerie intégrée.",
+      competences: ["React", "JavaScript"],
+      lien: "https://coach-site-62ln3s6vq-street-gym.vercel.app/",
+      statut: null,
+    },
+    {
+      titre: "Calendrier & Tâches — App Mobile",
+      description:
+        "Application mobile React Native avec calendrier multi-vues (Année / Mois / Semaine / Jour), tâches récurrentes, rappels et synchronisation cloud via Supabase. Auth email incluse.",
+      competences: ["React Native", "JavaScript"],
+      lien: "https://github.com/Bryan974rs/todov1",
       statut: null,
     },
     {
@@ -55,34 +71,13 @@ function Projets() {
       lien: null,
       statut: "stage",
     },
-    {
-      titre: "To-Do List",
-      description: "Gestion de tâches en JavaScript.",
-      competences: ["JavaScript"],
-      lien: "https://bryan974rs.github.io/todo-list/",
-      statut: null,
-    },
-    {
-      titre: "Calculatrice",
-      description: "Calculatrice interactive.",
-      competences: ["JavaScript"],
-      lien: "https://bryan974rs.github.io/calculatrice-js/",
-      statut: null,
-    },
-    {
-      titre: "Portfolio v1",
-      description: "Site personnel en HTML/CSS/Bootstrap.",
-      competences: ["CSS"],
-      lien: "#",
-      statut: null,
-    },
   ];
 
   const competencesDisponibles = [
     "Tous",
+    "React Native",
     "React",
     "JavaScript",
-    "CSS",
     "MySQL",
     "Réseaux",
   ];
