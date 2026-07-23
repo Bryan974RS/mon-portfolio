@@ -20,7 +20,7 @@ function Projets() {
       description:
         "Site web de coaching en ligne pour une association de street workout. Inscription, choix de coach, système de paiement et messagerie intégrée.",
       competences: ["React", "JavaScript"],
-      lien: "https://coach-site-62ln3s6vq-street-gym.vercel.app/",
+      lien: "https://coach-site-liart.vercel.app/",
       statut: null,
     },
     {
